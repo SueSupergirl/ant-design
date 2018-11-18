@@ -72,13 +72,8 @@ function NestedTable() {
   };
 
   const columns = [
-    { title: 'Name', dataIndex: 'name', key: 'name' },
-    { title: 'Platform', dataIndex: 'platform', key: 'platform' },
-    { title: 'Version', dataIndex: 'version', key: 'version' },
-    { title: 'Upgraded', dataIndex: 'upgradeNum', key: 'upgradeNum' },
-    { title: 'Creator', dataIndex: 'creator', key: 'creator' },
-    { title: 'Date', dataIndex: 'createdAt', key: 'createdAt' },
-    { title: 'Action', key: 'operation', render: () => <a href="javascript:;">Publish</a> },
+    { title: '关键部件', dataIndex: 'name', key: 'name' },
+    { title: '数量', dataIndex: 'platform', key: 'platform' },
   ];
 
   const data = [];
